@@ -1,0 +1,31 @@
+{
+	"name": "affiliate-marketing",
+	"version": "1.0.0",
+	"description": "Affiliate Marketing site scrapping using node.js and react.js",
+	"main": "server.js",
+	"scripts": {
+		"client-install": "npm install --prefix client",
+		"start": "node server.js",
+		"server": "nodemon server.js",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+	},
+	"author": "Sergey Hanzenko",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cheerio": "^1.0.0-rc.2",
+		"concurrently": "^4.1.0",
+		"cron": "^1.6.0",
+		"crypto-js": "^3.1.9-1",
+		"date-and-time": "^0.6.3",
+		"express": "^4.16.4",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.4.3",
+		"puppeteer": "^1.11.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.9"
+	}
+}

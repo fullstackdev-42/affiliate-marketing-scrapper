@@ -1,0 +1,40 @@
+{
+	"name": "client",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@date-io/date-fns": "^1.0.1",
+		"@material-ui/core": "^3.9.0",
+		"@material-ui/icons": "^3.0.2",
+		"axios": "^0.18.0",
+		"bootstrap": "^4.2.1",
+		"date-fns": "^2.0.0-alpha.21",
+		"jquery": "^3.3.1",
+		"material-ui-pickers": "^2.1.2",
+		"react": "^16.7.0",
+		"react-confirm-alert": "^2.0.7",
+		"react-dom": "^16.7.0",
+		"react-form-validator-core": "^0.5.1",
+		"react-load-script": "0.0.6",
+		"react-notifications": "^1.4.3",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "^2.1.5",
+		"reactstrap": "^7.1.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"proxy": "http://localhost:5000",
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
+}
